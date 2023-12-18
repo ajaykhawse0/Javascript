@@ -19,4 +19,8 @@
 
 // console.log(typeof valueinNumber);
 
+let ValueinNumber ="44"
+console.log(typeof ValueinNumber);
+let ValueinNumber = String(ValueinNumber)
+console.log(typeof ValueinNumber);
 
