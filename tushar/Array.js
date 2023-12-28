@@ -14,25 +14,25 @@ const Arr = [0,1,2,3,4,5,6]
 const myHeros = ["shaktiman", "Ironman",9]
 const Arr2 = new Array(1,2,3,4)
 
-// console.log(Arr[1]);
-// console.log(Arr2[0]);
-// console.log(typeof myHeros[2]);
-// console.log(typeof myHeros[0]);
-// console.log(typeof myHeros[1]);
-// console.log(myHeros);
-//
+console.log(Arr[1]);
+console.log(Arr2[0]);
+console.log(typeof myHeros[2]);
+console.log(typeof myHeros[0]);
+console.log(typeof myHeros[1]);
+console.log(myHeros);
+
 
 ///========== Array Methods ===============///
 
-// Arr.push(7)// to add anythig in an array
-// console.log(Arr);
-// Arr.pop()// IT REMOVES THE LAST ELEMENT
+ Arr.push(7)// to add anythig in an array
+console.log(Arr);
+Arr.pop()// IT REMOVES THE LAST ELEMENT
 
-// console.log(Arr);
+console.log(Arr);
 
-// Arr.unshift(8)
-// Arr.shift()// it will remove the first element
-// console.log(Arr);
+Arr.unshift(8)
+Arr.shift()// it will remove the first element
+console.log(Arr);
 
 console.log(Arr.includes(5));// it  will give answer in boolean value
 console.log(Arr.indexOf(2));
@@ -59,10 +59,10 @@ console.log("C",Arr);
 const Marvel_Heros = [ "THOR" , "IRONMAN", "SPIDERMAN"]
 const dc_Heros  = ["SUPERMAN","FLASH","BATMAN"]// if you push an array into other array then the value of pushed  is considered only as one element of array //
 
-// Marvel_Heros.push(dc_Heros)
-// console.log(Marvel_Heros);
-// console.log(Marvel_Heros[3]);
-// console.log(Marvel_Heros[3][2]);
+Marvel_Heros.push(dc_Heros)
+console.log(Marvel_Heros);
+console.log(Marvel_Heros[3]);
+console.log(Marvel_Heros[3][2]);
 
 const Allheros =Marvel_Heros.concat(dc_Heros)// BY MDN DOCS- The concat() method of Array instances is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
 console.log(Allheros);
