@@ -14,3 +14,39 @@ body {
     background-color:white;
     color: black;
   }
+
+.box
+  {
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color: rgb(16, 201, 170);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    }
+
+  #Fox
+
+    {
+      height: 100px;
+      width: 100px;
+      color: black;
+      background-color: rgb(24, 29, 24);
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+    }
+  .newpara{
+
+   background-color: pink;
+  }
+
+  .newpara2 {
+
+    font-size: 56px;
+  }
